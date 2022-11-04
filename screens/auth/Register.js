@@ -84,18 +84,21 @@ try{
       <TextInput
         value={name}
         placeholder="Name"
+        placeholderTextColor='#000'
         style={globalStyles.primaryInput}
         onChangeText={(text) => setName(text)}
       />
         <TextInput
         value={email}
         placeholder="Email"
+        placeholderTextColor='#000'
         style={globalStyles.primaryInput}
         onChangeText={(text) => setEmail(text)}
       />
         <TextInput
         value={password}
         placeholder="Password"
+        placeholderTextColor='#000'
         style={globalStyles.primaryInput}
         onChangeText={(text) => setPassword(text)}
       />

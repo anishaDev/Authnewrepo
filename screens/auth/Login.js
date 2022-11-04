@@ -24,11 +24,13 @@ const Login = () => {
       <TextInput
         value={email}
         placeholder="Email"
+        placeholderTextColor='#000'
         style={globalStyles.primaryInput}
         onChangeText={text => setEmail(text)}
       />
       <TextInput
         value={password}
+        placeholderTextColor='#000'
         placeholder="Password"
         style={globalStyles.primaryInput}
         onChangeText={text => setPassword(text)}

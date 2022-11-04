@@ -37,6 +37,8 @@ const styles = StyleSheet.create({
      ...globalStyles.secondaryText,
      flex: 1,  
      flexWrap: 'wrap',
-     marginHorizontal: 10
+     marginHorizontal: 10,
+    
+
   }
 })

@@ -50,12 +50,17 @@ export default function BlogCard({blogData, onModalOpen, moveToBlogScreen}) {
 
 const styles = StyleSheet.create({
   container: {
+    flex:1,
     width: Dimensions.get('screen').width / 1.25,
     backgroundColor: 'white',
-    height: 300,
+    height: 350,
     marginVertical: 10,
+    justifyContent:'center',
+    alignContent:'center',
   },
   card: {
+    justifyContent:'center',
+    alignContent:'center',
     height: '100%',
     width: '100%',
   },
