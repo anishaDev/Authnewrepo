@@ -11,9 +11,9 @@ export const globalStyles = StyleSheet.create({
         flex: 1,
      },
      headingText: {
-        fontSize: 36,
+        fontSize: 32,
         fontFamily: 'Roboto-Regular',
-        color: 'rgba(0,0,0,0.7)'
+        color: '#000'
      },
      primaryText: {
         fontSize: 22,
@@ -46,7 +46,7 @@ export const globalStyles = StyleSheet.create({
      largeBtnText: {
         fontFamily: 'Roboto-Regular',
         fontSize: 22,
-        color: 'white',
+        color: 'purple',
         textAlign: 'center'
      }
 })

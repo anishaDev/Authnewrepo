@@ -6,7 +6,16 @@ export default function Blog ({ route,navigation }){
   const { title, content, coverImage } = route.params.blogData
 
   return (
-     <ScrollView style={globalStyles.primaryContainer}>
+     <ScrollView 
+     vertical
+     showsVerticalScrollIndicator={false}
+     alwaysBounceVertical={false}
+   //   showsHorizontalScrollIndicator={false}
+     contentContainerStyle={{
+        flexGrow: 1,
+        justifyContent: 'center',
+        width: '100%',
+     }}>
         <StatusBar hidden />
         {
            coverImage ?

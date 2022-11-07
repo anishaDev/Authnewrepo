@@ -34,8 +34,10 @@ export default function CreateBlog({ navigation, route }) {
       launchImageLibrary({
          mediaType: 'photo',
       }, (data) => setCoverImg(data.assets[0].uri))
+      console.log(setCoverImg)
+     
    }
-
+  
    function onCheck() {
       if(id) {
          onUpdate(id)
@@ -139,6 +141,7 @@ export default function CreateBlog({ navigation, route }) {
             <Text style={styles.label}>Content</Text>
             <TextInput 
                style={styles.input}
+               placeholderTextColor='#000'
                multiline={true}
                numberOfLines={10}
                value={content}
@@ -181,13 +184,15 @@ const styles = StyleSheet.create({
       borderRadius: 2,
       padding: 10,
       textAlignVertical: 'top',
-      fontSize: 16
+      fontSize: 16,
+      color:'#000'
       
    },
    label: {
       fontSize: 18,
       margin: 10,
       fontFamily: 'Nunito-Regular',
+      color:"#000"
 
    },
    touchabelBtn: {
